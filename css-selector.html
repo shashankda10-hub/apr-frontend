@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>css selectors example</title>
+    <style>
+      /* 1. element selector */
+      h1 {
+        color: red;
+      }
+      /* 2. class selector */
+      .bluetext {
+        color: blue;
+      }
+      /* 3. id selector */
+      #greentext {
+        color: green;
+      }
+      /* 4. group selector */
+      h2,
+      p {
+        color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>this is element selector (h1 - red)</h1>
+    <h2>this is group selector (h2 - purple)</h2>
+    <p>this pharagraph is also purple (group selector)</p>
+    <p class="bluetext">this uses class selector (bluetext - blue)</p>
+    <p id="greentext">this uses ID selector (greentext - green)</p>
+  </body>
+</html>

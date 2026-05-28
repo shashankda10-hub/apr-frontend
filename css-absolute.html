@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>css absolute</title>
+    <style>
+      .outer {
+        height: 400px;
+        width: 800px;
+        position: relative;
+        border: 2px solid black;
+        src:;
+      }
+
+      .inner {
+        position: absolute;
+        top: 70px;
+        right: 20px;
+      }
+
+      img {
+        height: 400px;
+        width: 700px;
+        position: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <img
+        src="https://media.istockphoto.com/id/1361509529/photo/generic-racecar-prototype-photorealistic-re
+nder-silhouette-on-black.jpg?s=1024x1024&w=is&k=20&c=zuQSGqWm3cBgoECMO3Kup4vqtn
+jwQc9boGU4meai1jQ=
+"
+      />
+      <div class="inner">inner text</div>
+    </div>
+  </body>
+</html>
